@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(105, 105, 255);
+}
+.main{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px 65px;
+    height: 100vh;
+}
+input{
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+.inputflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    text-align: center;
+    border-bottom: 2px solid blue;
+    padding-bottom: 20px;
+}
+button{
+    padding: 7px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.informationflex{
+    display: flex;
+    justify-content: space-between;
+}
